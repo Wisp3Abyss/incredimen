@@ -1,0 +1,21 @@
+/* 0.5.1 2020-12-04 18:40:10 */
+var app=new function(){this.name="Incredisaac",this.version="2",this.date="2024",this.folder="asset-v1/",this.looptime=8000,this.bpm=120,this.totalframe=256,this.nbpolo=7,this.nbloopbonus=1,this.bonusloopA=!0,this.bonusendloopA=!0,this.recmaxloop=27,this.recminloop=10,this.recmintime=Math.round(this.looptime/1e3)*this.recminloop,this.spritepolo="polo-sprite.png",this.spritepicto="game-picto.png",this.colBck="#450C3D",this.col0="#450C3D",this.col1="#450C3D",this.col2="#450C3D",this.col3="#450C3D",this.col4="450C3D",this.animearray=[
+{name:"1_kick",color:"3C01BC",uniqsnd:!1},
+{name:"2_snare",color:"3C01BC",uniqsnd:!0},
+{name:"3_hihat",color:"3C01BC",uniqsnd:!1},
+{name:"4_bash",color:"3C01BC",uniqsnd:!0},
+{name:"5_clac",color:"3C01BC",uniqsnd:!1},
+{name:"6_bass",color:"FEAA00",uniqsnd:!1},
+{name:"7_lumino",color:"FEAA00",uniqsnd:!1},
+{name:"8_cube",color:"FEAA00",uniqsnd:!1},
+{name:"9_flee",color:"FEAA00",uniqsnd:!1},
+{name:"10_hole",color:"FEAA00",uniqsnd:!0},
+{name:"11_hope",color:"9CB83A",uniqsnd:!1},
+{name:"12_bell",color:"9CB83A",uniqsnd:!1},
+{name:"13_piano",color:"9CB83A",uniqsnd:!1},
+{name:"14_gitar",color:"9CB83A",uniqsnd:!1},
+{name:"15_violin",color:"9CB83A",uniqsnd:!1},
+{name:"16_love",color:"8CB83A",uniqsnd:!1},
+{name:"17_woo",color:"8CB83A",uniqsnd:!1},
+{name:"18_boo",color:"8CB83A",uniqsnd:!0}, {name:"19_breather",color:"8CB83A",uniqsnd:!0},
+{name:"20_glitch",color:"8CB83A",uniqsnd:!0}],this.bonusarray=[];for(var n=0,o=this.animearray.length;n<o;n++){var a=this.animearray[n].name;this.animearray[n].soundA=a+"_a",this.animearray[n].soundB=this.animearray[n].uniqsnd?a+"_a":a+"_b",this.animearray[n].anime=a+"-sprite.png",this.animearray[n].animeData=a+".json"}};
